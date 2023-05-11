@@ -1,0 +1,1 @@
+{"version":3,"names":["AsyncStorage"],"sources":["index.ts"],"sourcesContent":["import AsyncStorage from './AsyncStorage';\r\n\r\nexport { useAsyncStorage } from './hooks';\r\n\r\nexport type { AsyncStorageStatic } from './types';\r\n\r\nexport default AsyncStorage;\r\n"],"mappings":";;;;;;;;;;;;;AAAA;;AAEA;;;;eAIeA,qB"}

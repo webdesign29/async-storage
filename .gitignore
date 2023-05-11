@@ -61,6 +61,3 @@ buck-out/
 !.vscode/extensions.json
 .expo
 /web-build
-
-# builds by bob
-lib/
