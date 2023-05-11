@@ -70,6 +70,9 @@ const AsyncStorage: AsyncStorageStatic = {
    * Fetches `key` value.
    */
   getItem: (key, callback) => {
+    if(typeof window === 'undefined') return Promise.resolve(
+      callback === null || callback === void 0 ? void 0 : callback(null, null)
+    );
     return createPromise(() => window.localStorage.getItem(key), callback);
   },
 
